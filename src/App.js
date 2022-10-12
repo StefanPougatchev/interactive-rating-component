@@ -1,22 +1,22 @@
-import React from 'react'
+import React from 'react';
 
-import styled from 'styled-components'
-import { ThemeProvider } from 'styled-components'
+import styled from 'styled-components';
+import { ThemeProvider } from 'styled-components';
 
-import Theme from './theme/theme'
-import Header from './components/header'
+import Theme from './theme/theme';
+import ContentContainer from './components/ContentContainer';
 
 function App() {
   return (
     <ThemeProvider theme={Theme}>
       <AppContainer>
-        <Header />
+        <ContentContainer />
       </AppContainer>
     </ThemeProvider>
-  )
+  );
 }
 
-export default App
+export default App;
 
 // AppContainer styles. Centers <Header /> component
 const AppContainer = styled.div`
@@ -25,6 +25,5 @@ const AppContainer = styled.div`
   align-items: center;
 
   height: 100vh;
-  background: #1d1f27;
-  color: ${props => props.theme.colors.white};;
-`
+  background-color: hsl(216, 12%, 8%);
+`;

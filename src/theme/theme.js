@@ -9,6 +9,6 @@
 
 export default {
   colors: {
-    white: '#ffff'
-  }
-}
+    white: '#ffff',
+  },
+};
