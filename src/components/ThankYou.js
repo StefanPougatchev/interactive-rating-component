@@ -1,7 +1,5 @@
-import { stripLineComment } from 'babel-plugin-styled-components/lib/minify';
 import React from 'react';
 import styled from 'styled-components';
-import { TextContent } from './ContentContainer';
 import ThankYouIll from '../assets/svgs/illustration-thank-you.svg';
 
 const ThankYou = (props) => {
