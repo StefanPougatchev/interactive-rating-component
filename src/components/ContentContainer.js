@@ -19,7 +19,10 @@ const ContentContainer = () => {
       ) : (
         <ContentContainerStyled>
           <IconContainer>
-            <IconImg src={IconStar} />
+            <IconImg
+              src={IconStar}
+              alt='icon'
+            />
           </IconContainer>
           <Heading>How did we do?</Heading>
           <TextContent>
